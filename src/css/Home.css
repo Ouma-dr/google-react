@@ -1,0 +1,46 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+.header .left{
+    display: flex;
+    align-items: center;
+}
+.header .left p{
+    margin-right: 8px;
+    font-size: 15px;
+}
+.header .right{
+    display: flex;
+    align-items: center;
+}
+.header .right p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+.header .right .icons{
+    margin-left: 10px;
+    
+}
+.header .right .image img{
+   height: 20px;
+   width: 20px; 
+   margin-left: 10px;
+}
+.body{
+    flex: 1;
+    display: flex;
+    margin-top: 10%;
+    flex-direction: column;
+ }
+ .body > img{
+    object-fit: contain;
+    height: 100px;
+ }
